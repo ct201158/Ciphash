@@ -2,7 +2,7 @@
 
 		    string spacechar = "-"; // Put your space character here. ex: abc-def
 
-	            // Begin hashing phase (letters)
+	            // Begin cipher phase (letters)
 		    
 		    // Feel free to change the letters to whatever you want, only change the second one though.
 
@@ -34,7 +34,7 @@
                     textBox1.Text = Regex.Replace(textBox1.Text, "z", "0rz"); //26
                     textBox1.Text = Regex.Replace(textBox1.Text, " ", spacechar); //space
 
-		    // Number hashing phase
+		    // Number cipher phase
 
                     textBox1.Text = Regex.Replace(textBox1.Text, "1", "WQ"); //1
                     textBox1.Text = Regex.Replace(textBox1.Text, "2", "YL"); //2
